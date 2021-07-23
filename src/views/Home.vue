@@ -2,7 +2,7 @@
   <div class="home">
     <h1>
       Hello. <br> Je suis Nicolas. <br>Étudiant et freelance. <br>
-      <span>#en alternance chez Nomad Education</span>
+      <span>Alternant chez Nomad Education</span>
     </h1>
     <div class="infos">
       <div class="info">
