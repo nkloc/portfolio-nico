@@ -32,6 +32,7 @@ header
         width 25px
         cursor pointer
         @media tablet
+            width 20px
             margin-left 2vw
     div
         display flex
