@@ -28,7 +28,7 @@
       <p style="position: absolute; left: 79vw; top: 23vh">#Figma</p>
       <p style="position: absolute; left: 67vw; top: 36vh">#UX/UI</p>
       <p style="position: absolute; left: 66vw; top: 70vh">#Go</p>
-      <p style="position: absolute; left: 58vw; top: 77vh">#SQL</p>
+      <p style="position: absolute; left: 58vw; top: 77vh">#Node</p>
       <p style="position: absolute; left: 65vw; top: 62vh">#Python</p>
     </div>
   </div>
