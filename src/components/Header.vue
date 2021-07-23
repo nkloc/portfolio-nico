@@ -20,6 +20,14 @@ header
     align-items center
     justify-content space-between
     padding 5vh 0
+    @media tablet
+        width 90%
+        height 100px
+        border-right none
+        border-top 1px solid #EAEAEA
+        padding 0 5vh
+        flex-direction row
+        
     img
         width 25px
         cursor pointer
@@ -27,9 +35,15 @@ header
         display flex
         flex-direction column
         align-items center
+        @media tablet
+            flex-direction row
         img
             color $gris-color
             width 20px
             height auto
             margin-top 20px
+            @media tablet
+                margin-left 50px
+                margin-top 0
+                width 30px
 </style>

@@ -29,6 +29,8 @@
   flex-direction column
   justify-content space-between
   height 100%
+  @media tablet
+    margin-top 5vh
 h1
   font-family $font-secondary
   font-size 65px
@@ -36,11 +38,19 @@ h1
   color $black-color
   font-weight 400
   margin-top 150px
+  @media tablet
+    font-size 50px
+    line-height 60px
+    margin-top 0
   span
     color $rose-color
 
 .infos
   display flex
+  @media tablet
+    width 100%
+    flex-direction column
+
   .info
     display flex
     flex-direction column
@@ -48,6 +58,9 @@ h1
     margin-right 50px 
     height 50px
     justify-content space-between
+    @media tablet
+      margin-right 0
+      margin-top 15px
     h4
       font-size 18px
       font-weight 700
