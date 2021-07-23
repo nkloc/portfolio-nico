@@ -21,29 +21,31 @@ header
     justify-content space-between
     padding 5vh 0
     @media tablet
-        width 90%
-        height 100px
+        width 100vw
+        height 80px
         border-right none
         border-top 1px solid #EAEAEA
-        padding 0 5vh
         flex-direction row
+        padding 0
         
     img
         width 25px
         cursor pointer
+        @media tablet
+            margin-left 2vw
     div
         display flex
         flex-direction column
         align-items center
         @media tablet
             flex-direction row
+            margin-right 2vw
         img
             color $gris-color
             width 20px
             height auto
             margin-top 20px
             @media tablet
-                margin-left 50px
+                margin-right 20px
                 margin-top 0
-                width 30px
 </style>

@@ -31,4 +31,5 @@ export default {
   display flex
   @media tablet
     flex-direction column-reverse
+    justify-content flex-end
 </style>

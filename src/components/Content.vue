@@ -22,6 +22,12 @@ main
     height 90vh
     display flex
     flex-direction column
+    @media tablet
+        padding 0
+        width auto
+        padding 2vh
+        height auto
+        min-height calc(96vh - 80px)
     nav
         margin-bottom 30px
         @media tablet

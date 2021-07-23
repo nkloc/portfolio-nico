@@ -5,7 +5,6 @@
       <span>#en alternance chez Nomad Education</span>
     </h1>
     <div class="infos">
-
       <div class="info">
         <h4>Téléphone</h4>
         <p>07 71 78 87 52</p>
@@ -19,6 +18,19 @@
         <p>nicolaskloc@gmail.com</p>
       </div>
     </div>
+    <div class="text">
+      <p style="position: absolute; left: 42vw; top: 5vh;" class="spe">#Front-end</p>
+      <p style="position: absolute; left: 73vw; top: 30vh;" class="spe">#Design</p>
+      <p style="position: absolute; left: 55vw; top: 68vh;" class="spe">#Back-end</p>
+      <p style="position: absolute; left: 47vw; top: -2vh">#Javascript</p>
+      <p style="position: absolute; left: 55vw; top: 6vh">#Vue.js</p>
+      <p style="position: absolute; left: 32vw; top: 13vh">#Intégration responsive</p>
+      <p style="position: absolute; left: 79vw; top: 23vh">#Figma</p>
+      <p style="position: absolute; left: 67vw; top: 36vh">#UX/UI</p>
+      <p style="position: absolute; left: 66vw; top: 70vh">#Go</p>
+      <p style="position: absolute; left: 58vw; top: 77vh">#SQL</p>
+      <p style="position: absolute; left: 65vw; top: 62vh">#Python</p>
+    </div>
   </div>
 </template>
 
@@ -31,6 +43,17 @@
   height 100%
   @media tablet
     margin-top 5vh
+.text
+  @media tablet
+    display none
+  font-family $font-secondary
+  font-size 30px
+  line-height 45px
+  color $rose-color
+  white-space nowrap
+  position absolute
+  .spe
+    color $blue-color
 h1
   font-family $font-secondary
   font-size 65px
@@ -42,6 +65,7 @@ h1
     font-size 50px
     line-height 60px
     margin-top 0
+    margin-bottom 30px
   span
     color $rose-color
 
