@@ -43,7 +43,7 @@ main
             li
                 margin-right 30px
                 @media tablet
-                    font-size 16px
+                    font-size 14px
                 @media mobile
                     margin-right 15px
                     font-size 3vw
