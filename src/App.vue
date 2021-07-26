@@ -49,7 +49,7 @@ export default {
   width 100vw
   background white
   z-index 999
-  height 100vw
+  height 100%
   position fixed
   top 0
   left 0
