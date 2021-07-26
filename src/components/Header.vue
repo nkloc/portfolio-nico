@@ -33,7 +33,7 @@ header
         cursor pointer
         @media tablet
             width 20px
-            margin-left 2vw
+            margin-left calc( 2vw + 20px )
     div
         display flex
         flex-direction column
