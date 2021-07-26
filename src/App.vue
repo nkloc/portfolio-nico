@@ -1,5 +1,12 @@
 <template>
   <div id="app">
+    <div class="loader-wrapper" v-if="!isLoaded">
+      <fingerprint-spinner
+        :animation-duration="1500"
+        :size="64"
+        color="#ff1d5e"
+      />
+    </div>
     <Header/>
     <Content/>
   </div>
@@ -8,13 +15,28 @@
 <script>
 import Header from './components/Header.vue'
 import Content from './components/Content.vue'
+import { FingerprintSpinner } from 'epic-spinners'
 
 
 export default {
   name: 'App',
+  data: () => {
+    return {
+      isLoaded: false,
+    }
+  },
+  mounted() {
+    document.onreadystatechange = () => {
+      if (document.readyState == 'complete') {
+        this.isLoaded = true;
+      }
+    }
+   
+  },
   components: {
     Header,
-    Content
+    Content,
+    FingerprintSpinner
   }
 }
 </script>
@@ -22,6 +44,17 @@ export default {
 <style lang="stylus">
 @import 'css/main'
 
+.loader-wrapper
+  display flex
+  width 100vw
+  background white
+  z-index 999
+  height 100vw
+  position fixed
+  top 0
+  left 0
+  justify-content center
+  align-items center
 #app
   font-family $font-primary
   -webkit-font-smoothing antialiased
