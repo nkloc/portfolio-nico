@@ -12,6 +12,7 @@
 <style lang="stylus" scoped>
 @import '../css/variables'
 header
+    position fixed
     width 100px
     border-right 1px solid #EAEAEA
     height 90vh
@@ -21,6 +22,7 @@ header
     justify-content space-between
     padding 5vh 0
     @media tablet
+        position static
         width 100vw
         height 80px
         border-right none

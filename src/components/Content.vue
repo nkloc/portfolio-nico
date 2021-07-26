@@ -18,11 +18,13 @@ main
     font-size 16px
     line-height 24px
     padding 5vh
+    margin-left 100px
     width calc(100vw - 100px)
     height 90vh
     display flex
     flex-direction column
     @media tablet
+        margin-left 0
         padding 0
         width auto
         padding 2vh
@@ -37,12 +39,14 @@ main
             display flex
             @media tablet
                 width 100%
-                justify-content space-around
+                justify-content space-between
             li
                 margin-right 30px
                 @media tablet
+                    font-size 16px
+                @media mobile
                     margin-right 15px
-                    font-size 12px
+                    font-size 3vw
                 cursor pointer
                 a
                     color $black-color

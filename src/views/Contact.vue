@@ -1,5 +1,5 @@
 <template>
   <div class="contact">
-    <h1>Coming soon! </h1>
+    <h1 class="title-component">Me contacter</h1>
   </div>
 </template>

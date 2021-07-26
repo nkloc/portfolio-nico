@@ -1,5 +1,5 @@
 <template>
   <div class="projets">
-    <h1>Coming soon!</h1>
+    <h1 class="title-component">Projets récents</h1>
   </div>
 </template>
