@@ -62,6 +62,7 @@ export default {
   width 100vw
   min-height 100vh
   display flex
+  overflow-x hidden
   @media tablet
     flex-direction column-reverse
     justify-content flex-end
