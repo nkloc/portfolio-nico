@@ -17,6 +17,8 @@
     font-weight medium
     font-size 12px
     line-height 18px
+    font-family Source Sans Pro, sans-serif
+    font-weight medium
 header
     position fixed
     width 100px
