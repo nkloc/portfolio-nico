@@ -8,13 +8,13 @@
       />
     </div>
     <Header/>
-    <Content/>
+    <Nav/>
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue'
-import Content from './components/Content.vue'
+import Nav from './components/Nav.vue'
 import { FingerprintSpinner } from 'epic-spinners'
 
 
@@ -35,7 +35,7 @@ export default {
   },
   components: {
     Header,
-    Content,
+    Nav,
     FingerprintSpinner
   }
 }
