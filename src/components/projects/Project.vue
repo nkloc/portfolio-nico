@@ -61,30 +61,33 @@ article
     display flex
     flex-direction column
     padding 30px
+    justify-content space-around
     width 360px
     box-shadow 0px 0px 15px rgba(0, 0, 0, 0.1)
     border-radius 30px
     @media tablet
         width auto
+        max-width 500px
         margin-bottom 30px
 
 figure
     width 100%
-    height 100%
     margin-bottom 20px
     img
         width 100%
+        border-radius 20px
         height 100%
 .title_year
     display flex
     width 100%
-    justify-content: space-between
+    text-align center
+    justify-content space-between
+    align-items baseline
+    margin-bottom 20px
     h3
-        margin-bottom 20px
         font-weight bold
         font-size 24px
     .year
-        margin-bottom 20px
         font-size 16px
         color $grey-color
 
@@ -95,6 +98,7 @@ figure
     margin-bottom 20px
     display flex
 button
+    justify-self flex-end
     background-color $blue-color
     font-family 'Source Sans Pro', sans-serif
     font-weight 600
@@ -104,11 +108,12 @@ button
     color white
     padding 16px 32px
     border-radius 8px
+    cursor pointer
 .tag
     padding 8px
     margin-right 12px
     border-radius 8px
-    font-family Source Sans Pro, sans-serif
+    font-family 'Source Sans Pro', sans-serif
     font-weight bold
 
 .design

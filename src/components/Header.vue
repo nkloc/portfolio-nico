@@ -14,11 +14,10 @@
 @import '../css/variables'
 .copyright
     text-align center
-    font-weight medium
+    font-weight 400
     font-size 12px
     line-height 18px
     font-family Source Sans Pro, sans-serif
-    font-weight medium
 header
     position fixed
     width 100px

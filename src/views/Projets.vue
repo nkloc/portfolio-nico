@@ -46,39 +46,57 @@ export default {
       projects: [
         {
           id: 1,
+          title: "Nomad Education",
+          path: "Nomad",
+          tags: ["Design", "Frontend", "Backend"],
+          description:
+            "L’application de révision ultime pour réussir sa scolarité.",
+          year: "2021",
+        },
+        {
+          id: 2,
+          title: "Bee",
+          path: "Bee",
+          tags: ["Design"],
+          description:
+            "Rendre la collaboration à distance plus efficace grâce à la réalité virtuelle.",
+          year: "2020",
+        },
+        {
+          id: 3,
           title: "Pappers",
           path: "Pappers",
           tags: ["Design", "Frontend", "Backend"],
           description:
             "Toute l’information des entreprises, gratuite, complète, intelligente.",
-          year: "2020",
+          year: "2019",
         },
         {
-          id: 2,
+          id: 4,
           title: "Coover",
           path: "Coover",
           tags: ["Design", "Frontend"],
           description:
             "La plateforme d’assurance des entreprises et des indépendants.",
-          year: "2020",
+          year: "2019",
         },
         {
-          id: 3,
-          title: "Bee",
-          path: "Bee",
+          id: 5,
+          title: "Garden",
+          path: "Garden",
           tags: ["Design"],
           description:
-            "Une nouvelle façon de collaborer. La plateforme de collaboration virtuelle.",
+            "Vous souhaitez rendre vos voyages quotidiens plus productifs ? Cette application de culture G est faite pour vous !",
           year: "2020",
         },
         {
-          id: 4,
-          title: "Nomad Education",
-          path: "NomadEducation",
-          tags: ["Design", "Frontend", "Backend"],
+          id: 6,
+          title: "Caf'Fit",
+          path: "Caffit",
+          tags: ["Design"],
           description:
-            "L’application de révision ultime pour réussir sa scolarité.",
-          year: "2021",
+            "Le café des sportifs, à proximité des salles de sport !",
+          year: "2019",
         },
       ],
     };
