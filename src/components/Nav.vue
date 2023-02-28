@@ -5,7 +5,6 @@
                 <li><router-link to="/" :class="{'link-properties': true, 'active': this.$route.name === 'Home'}">Accueil</router-link></li>
                 <li><router-link to="/projets" :class="{'link-properties': true, 'active': this.$route.name === 'Projets'}">Mes projets</router-link></li>
                 <li><router-link to="/about" :class="{'link-properties': true, 'active': this.$route.name === 'About'}">À propos de moi</router-link></li>
-                <li><router-link to="/contact" :class="{'link-properties': true, 'active': this.$route.name === 'Contact'}">Me contacter</router-link></li>
             </ul>
         </nav>
         <router-view />

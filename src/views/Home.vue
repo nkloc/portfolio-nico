@@ -2,7 +2,7 @@
   <div class="home">
     <h1>
       Hello. <br> Je suis Nicolas. <br>Étudiant et freelance. <br>
-      <span>Alternant chez Nomad Education</span>
+      <span>Alternant au Web School Studio et CFEE</span>
     </h1>
     <div class="infos">
       <div class="info">
@@ -21,15 +21,17 @@
     <div class="text">
       <p style="position: absolute; left: 42vw; top: 5vh;" class="spe">#Front-end</p>
       <p style="position: absolute; left: 73vw; top: 30vh;" class="spe">#Design</p>
-      <p style="position: absolute; left: 55vw; top: 68vh;" class="spe">#Back-end</p>
+      <p style="position: absolute; left: 55vw; top: 69vh;" class="spe">#Gestion de projet</p>
       <p style="position: absolute; left: 47vw; top: -2vh">#Javascript</p>
-      <p style="position: absolute; left: 55vw; top: 6vh">#Vue.js</p>
-      <p style="position: absolute; left: 32vw; top: 13vh">#Intégration responsive</p>
+      <p style="position: absolute; left: 55vw; top: 6vh">#Airtable</p>
+      <p style="position: absolute; left: 32vw; top: 13vh">#MongoDB</p>
       <p style="position: absolute; left: 79vw; top: 23vh">#Figma</p>
       <p style="position: absolute; left: 67vw; top: 36vh">#UX/UI</p>
-      <p style="position: absolute; left: 66vw; top: 70vh">#Go</p>
-      <p style="position: absolute; left: 58vw; top: 77vh">#Node</p>
-      <p style="position: absolute; left: 65vw; top: 62vh">#Python</p>
+      <p style="position: absolute; left: 63vw; top: 26vh">#UX Research</p>
+      <p style="position: absolute; left: 68vw; top: 75vh">#Agilité</p>
+      <p style="position: absolute; left: 53vw; top: 77vh">#Management</p>
+      <p style="position: absolute; left: 63vw; top: 63vh">#Miro</p>
+      <p style="position: absolute; left: 52vw; top: 62vh">#Notion</p>
     </div>
   </div>
 </template>

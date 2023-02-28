@@ -32,6 +32,7 @@ section
     margin-bottom 50px
     @media tablet
       margin-right 0
+      margin-bottom 25px
 </style>
 
 
@@ -46,53 +47,100 @@ export default {
       projects: [
         {
           id: 1,
-          title: "Nomad Education",
-          path: "Nomad",
-          tags: ["Design", "Frontend", "Backend"],
-          description:
-            "L’application de révision ultime pour réussir sa scolarité.",
-          year: "2021",
+          title: "Lab by CB x System U",
+          tags: ["Design", "Management"],
+          description: "UX Research pour System U sur la mise en place de nouveaux parcours clients, plus autonomes.",
+          year: "2023",
         },
         {
           id: 2,
+          title: "Lab by CB x ARKEA",
+          tags: ["Design", "Management"],
+          description: "UX Research pour ARKEA sur l'accompagnement bancaire des clients pro (Tier 2 et 3).",
+          year: "2023",
+        },
+        {
+          id: 3,
+          title: "Effy",
+          tags: ["Design", "Management"],
+          description: "Projet intrapreneurial autour du parcours client.",
+          year: "2023",
+        },
+        {
+          id: 4,
+          title: "Stellantis",
+          tags: ["Design", "Management"],
+          description:
+            "UX Research pour Stellantis sur le sujet du Métavers.",
+          year: "2023",
+        },
+        {
+          id: 5,
+          title: "RATP",
+          tags: ["Design", "Management"],
+          description:
+            "UX Research autour de l'appropriation et de la logistique des tablettes à la RATP.",
+          year: "2022",
+        },
+        {
+          id: 6,
+          title: "Saint-Gobain",
+          tags: ["Design", "Management"],
+          description:
+            "Projet intrapreneurial sur la mise en place d'une Business Solution Platform pour Saint-Gobain Sekurit.",
+          year: "2022",
+        },
+        {
+          id: 7,
+          title: "Galileo Global Education x Workday",
+          tags: ["Design", "Management"],
+          description:
+            "UX Research autour de la résolution de problèmes liés à Workday pour Galileo Global Education.",
+          year: "2022",
+        },
+        {
+          id: 8,
+          title: "Nomad Education",
+          tags: ["Design", "Front-end", "Back-end"],
+          description:
+            "L’application de révision ultime pour réussir sa scolarité.",
+          year: "2022",
+        },
+        {
+          id: 9,
           title: "Bee",
-          path: "Bee",
-          tags: ["Design"],
+          tags: ["Design", "Management"],
           description:
             "Rendre la collaboration à distance plus efficace grâce à la réalité virtuelle.",
           year: "2020",
         },
         {
-          id: 3,
+          id: 10,
           title: "Pappers",
-          path: "Pappers",
-          tags: ["Design", "Frontend", "Backend"],
+          tags: ["Design", "Front-end", "Back-end"],
           description:
             "Toute l’information des entreprises, gratuite, complète, intelligente.",
           year: "2019",
         },
         {
-          id: 4,
+          id: 11,
           title: "Coover",
-          path: "Coover",
-          tags: ["Design", "Frontend"],
+          tags: ["Design", "Front-end"],
           description:
             "La plateforme d’assurance des entreprises et des indépendants.",
           year: "2019",
         },
         {
-          id: 5,
+          id: 12,
           title: "Garden",
-          path: "Garden",
           tags: ["Design"],
           description:
-            "Vous souhaitez rendre vos voyages quotidiens plus productifs ? Cette application de culture G est faite pour vous !",
+            "L'application mobile pour développer sa culture générale.",
           year: "2020",
         },
         {
-          id: 6,
+          id: 13,
           title: "Caf'Fit",
-          path: "Caffit",
           tags: ["Design"],
           description:
             "Le café des sportifs, à proximité des salles de sport !",

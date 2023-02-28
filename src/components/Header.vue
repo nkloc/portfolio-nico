@@ -17,7 +17,7 @@
     font-weight 400
     font-size 12px
     line-height 18px
-    font-family Source Sans Pro, sans-serif
+    font-family Nunito, sans-serif
 header
     position fixed
     width 100px
@@ -40,6 +40,8 @@ header
     img
         width 25px
         cursor pointer
+        &:hover
+            opacity 0.6
         @media tablet
             width 20px
     div
@@ -50,7 +52,6 @@ header
             flex-direction row
             order 3
         img
-            color $gris-color
             width 20px
             height auto
             margin-top 20px
