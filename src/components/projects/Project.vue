@@ -54,8 +54,6 @@ article
     flex-direction column
     padding 24px
     justify-content space-around
-    // width 360px
-    // box-shadow 0px 0px 8px rgba(0, 0, 0, 0.1)
     border: 1px solid rgba(0, 0, 0, 0.15)
     border-radius 16px
     gap 16px

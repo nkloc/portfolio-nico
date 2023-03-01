@@ -6,7 +6,7 @@
             <a href="https://github.com/nkloc" target="_blank"><img src="@/assets/github.svg" alt="Github KLOC Nicolas"></a>
             <a href="https://www.malt.fr/profile/nicolaskloc" target="_blank"><img src="@/assets/malt.svg" alt="Malt KLOC Nicolas"></a>
         </div>
-        <h2 class="copyright desktop-only">KLOC Nicolas <br> © 2022</h2>
+        <h2 class="copyright desktop-only">KLOC Nicolas <br> © 2023</h2>
     </header>
 </template>
 
