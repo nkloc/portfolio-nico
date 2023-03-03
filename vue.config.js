@@ -3,7 +3,7 @@ module.exports = {
         config
             .plugin('html')
             .tap(args => {
-                args[0].title = "Nicolas KLOC, front-end developer";
+                args[0].title = "Nicolas KLOC, Product Manager";
                 return args;
             })
     }
