@@ -119,7 +119,7 @@ export default {
           title: "Pappers",
           tags: ["Design", "Front-end", "Back-end"],
           description:
-            "Toute l’information des entreprises, gratuite, complète, intelligente.",
+            "Réalisation des premiers wireframes et premières maquettes puis développement front pour le MVP / v1 de Pappers.",
           year: "2019",
         },
         {

@@ -3,7 +3,7 @@
     <h1>
       Hello.
       <br> Bienvenue sur mon portfolio.
-      <br> Je cherche un poste de <span>Product Manager</span> <br class="desktop-only"> pour <span>Octobre 2023.</span>
+      <br> Je suis à la recherche de <br class="desktop-only"> <span>nouvelles opportunités</span> pour <span>Octobre 2023.</span>
     </h1>
     <div class="infos">
       <div class="info">
