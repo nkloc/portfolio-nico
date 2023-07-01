@@ -49,21 +49,21 @@ export default {
           id: 1,
           title: "Lab by CB x System U",
           tags: ["Design", "Management"],
-          description: "UX Research pour System U sur la mise en place de nouveaux parcours clients, plus autonomes.",
+          description: "UX Research pour System U sur la mise en place de nouveaux parcours clients.",
           year: "2023",
         },
         {
           id: 2,
           title: "Lab by CB x ARKEA",
           tags: ["Design", "Management"],
-          description: "UX Research pour ARKEA sur l'accompagnement bancaire des clients pro (Tier 2 et 3).",
+          description: "UX Research pour ARKEA sur l'accompagnement bancaire.",
           year: "2023",
         },
         {
           id: 3,
           title: "Effy",
           tags: ["Design", "Management"],
-          description: "Projet intrapreneurial autour du parcours client.",
+          description: "Projet intrapreneurial autour du parcours client et de l'accompagnement des professionnels.",
           year: "2023",
         },
         {
@@ -127,7 +127,7 @@ export default {
           title: "Coover",
           tags: ["Design", "Front-end"],
           description:
-            "La plateforme d’assurance des entreprises et des indépendants.",
+            "Refonte du parcours client et de l'expérience utilisateur.",
           year: "2019",
         },
         {
