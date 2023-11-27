@@ -2,21 +2,22 @@
   <div class="about">
     <h1 class="title-component">À propos de moi</h1>
     <div class="text-container">
-      <p>Je suis actuellement étudiant en 5ème année à la <span class="keyword">Web School Factory</span>, où je prépare le diplôme <span class="keyword">Management de l'innovation numérique</span>. Je travaille en alternance en tant que <span class="keyword">Product Manager</span> et <span class="keyword">Service Designer</span> au <span class="keyword">Web School Studio</span>, une agence spécialisée dans l'expérience utilisateur.</p>
-      <p>En 2023, je recevrai mon double diplôme de la <span class="keyword">Web School Factory</span> ainsi que de <span class="keyword">Paris Dauphine PSL</span>, où je suis inscrit au programme DU Intraprenariat et transformation numérique. 2023 sera donc une étape importante dans mon parcours professionnel, marquant la fin de mes études et le début de ma carrière professionnelle.</p>
-      <p>Passionné par <span class="keyword">l'innovation</span> et la création de solutions numériques qui améliorent la vie des utilisateurs, mes expériences en tant que <span class="keyword">Product Manager</span> et <span class="keyword">Service Designer</span> m'ont permis de développer des compétences en gestion de projets, <span> en conception de produits / services centrés sur l'Utilisateur </span> et en collaboration avec des équipes interdisciplinaires. </p>
-      <p>Je suis constamment à la recherche de nouveaux défis et d'opportunités d'apprentissage pour continuer à développer mes compétences et mes connaissances dans le domaine de <span class="keyword">l'innovation numérique</span>.</p>
+      <p>Diplômé de la Web School Factory avec un double diplôme de Paris Dauphine PSL en <span class="keyword">Management de l'innovation numérique</span> et <span class="keyword">DU Intraprenariat et transformation numérique</span>, je suis actuellement à la recherche d'opportunités professionnelles dans le domaine de la <span class="keyword">gestion de produits</span>.</p>
+      <p>Mon parcours académique et mes expériences en tant que <span class="keyword">Product Manager</span> et <span class="keyword">Service Designer</span> au sein du <span class="keyword">Web School Studio</span>, une agence spécialisée dans l'<span class="keyword">expérience utilisateur</span>, m'ont permis de développer des compétences approfondies en <span class="keyword">gestion de projets</span>, en <span class="keyword">conception de produits</span> et services centrés sur l'utilisateur, ainsi qu'en <span class="keyword">collaboration</span> avec des équipes interdisciplinaires.</p>
+      <p>Fier de mes réalisations académiques, 2023 marque pour moi l'aboutissement de mes études et le début de ma carrière professionnelle. Passionné par l'<span class="keyword">innovation</span> et déterminé à créer des solutions numériques impactantes pour améliorer la vie des utilisateurs, je suis à la recherche de nouveaux défis stimulants.</p>
+      <p>Ayant à cœur de contribuer à la création de produits et services novateurs qui apportent une réelle valeur à la société, je suis ouvert aux opportunités professionnelles qui me permettront de mettre en pratique mes compétences et de continuer à apprendre dans le domaine passionnant de l'<span class="keyword">innovation numérique</span>. Mon engagement envers l'<span class="keyword">excellence</span> et ma soif constante d'apprentissage font de moi un professionnel déterminé et prêt à relever les défis du monde professionnel.</p>
+
     </div>
     <section class="container">
-      <a href="@/assets/CV-FR-FEV23.pdf" download="CV_KLOC_Nicolas">
+      <router-link to="/cv" target="_blank">
         <article class="cv">
           <div>
             <p>Curriculum Vitae</p>
             <img src="@/assets/cv.png" alt="">
           </div>
-          <p>Télécharger mon CV</p>
+          <p>Voir mon CV</p>
         </article>
-      </a>
+      </router-link>
       <a href="https://www.linkedin.com/in/n-kloc/" target="_blank">
         <article class="in">
           <div>
