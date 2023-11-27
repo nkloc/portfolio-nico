@@ -28,7 +28,7 @@
     width: (100vw - 5vh - 100px);
     height: auto;
     @media tablet {
-        width: 100vw;
+        width: (100vw - 2vh);
         height: auto;
     }
 }
