@@ -4,8 +4,9 @@
     <div class="text-container">
       <p>Diplômé de la Web School Factory avec un double diplôme de Paris Dauphine PSL en <span class="keyword">Management de l'innovation numérique</span> et <span class="keyword">DU Intraprenariat et transformation numérique</span>, je suis actuellement à la recherche d'opportunités professionnelles dans le domaine de la <span class="keyword">gestion de produits</span>.</p>
       <p>Mon parcours académique et mes expériences en tant que <span class="keyword">Product Manager</span> et <span class="keyword">Service Designer</span> au sein du <span class="keyword">Web School Studio</span>, une agence spécialisée dans l'<span class="keyword">expérience utilisateur</span>, m'ont permis de développer des compétences approfondies en <span class="keyword">gestion de projets</span>, en <span class="keyword">conception de produits</span> et services centrés sur l'utilisateur, ainsi qu'en <span class="keyword">collaboration</span> avec des équipes interdisciplinaires.</p>
-      <p>Fier de mes réalisations académiques, 2023 marque pour moi l'aboutissement de mes études et le début de ma carrière professionnelle. Passionné par l'<span class="keyword">innovation</span> et déterminé à créer des solutions numériques impactantes pour améliorer la vie des utilisateurs, je suis à la recherche de nouveaux défis stimulants.</p>
-      <p>Ayant à cœur de contribuer à la création de produits et services novateurs qui apportent une réelle valeur à la société, je suis ouvert aux opportunités professionnelles qui me permettront de mettre en pratique mes compétences et de continuer à apprendre dans le domaine passionnant de l'<span class="keyword">innovation numérique</span>. Mon engagement envers l'<span class="keyword">excellence</span> et ma soif constante d'apprentissage font de moi un professionnel déterminé et prêt à relever les défis du monde professionnel.</p>
+      <p>Également <span class="keyword">freelance</span> depuis 2019 en <span class="keyword">développement fullstack</span>, mon parcours diversifié accentue ma polyvalence. Cette expérience approfondie me guide dans une collaboration harmonieuse avec les développeurs, où la compréhension des aspects techniques facilite une communication efficace et <span class="keyword">me permet d’anticiper leurs besoins</span>. Ma trajectoire en freelance me permet de <span class="keyword"> conserver une perspective d'ensemble</span> dans la réalisation de projets. </p>
+      <p>2023 marque pour moi l'aboutissement de mes études et le <span class="keyword">début de ma carrière professionnelle.</span> </p>
+      <p>Ayant à cœur de <span class="keyword">contribuer à la création de produits et services novateurs</span> qui apportent une réelle valeur à la société, je suis ouvert aux opportunités professionnelles qui me permettront de mettre en pratique mes compétences et de <span class="keyword">continuer à apprendre.</span></p>
 
     </div>
     <section class="container">
@@ -24,7 +25,7 @@
             <p>LinkedIn</p>
             <img src="@/assets/linkedin.png" alt="">
           </div>
-          <p>Pour me contacter</p>
+          <p>Me contacter</p>
         </article>
       </a>
       <a href="https://www.malt.fr/profile/nicolaskloc" target="_blank">

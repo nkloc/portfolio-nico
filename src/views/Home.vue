@@ -1,9 +1,8 @@
 <template>
   <div class="home">
     <h1>
-      Hello.
-      <br> Bienvenue sur mon portfolio.
-      <br> Je suis à la recherche de <br class="desktop-only"> <span>nouvelles opportunités</span> pour <span>Octobre 2023.</span>
+      Hello !
+      <br> Je suis un <span>Product / Service</span><br class="desktop-only"> <span>Designer</span> à la recherche d'un <span>job</span> <br class="desktop-only"> pour <span>Janvier 2024.</span>
     </h1>
     <div class="infos">
       <div class="info">
