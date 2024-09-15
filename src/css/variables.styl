@@ -1,58 +1,52 @@
-@font-face
-  font-family 'August'
-  src url('/public/hey_august/Hey-August.ttf') format('truetype')
-  src url('/public/hey_august/Hey-August.otf') format('opentype')
-  font-weight normal
-  font-style normal
-
-
 colors = {
   black: #212121,
+  white: #ffffff,
   blue: #005A8D,
   rose: #FF96AD,
   grey: #B3B3B3,
-  //tags
-  frontend: #B85252,
-  frontend-bg: #F1DCDC,
-  backend: #94B3FD,
-  backend-bg: #EAF0FF,
-  design: #B983FF,
-  design-bg: #F1E6FF,
-  management: #FF9436,
-  management-bg: #FFE5CF,
-
 }
 
+$white-color = colors.white
 $black-color = colors.black
 $blue-color = colors.blue
 $pink-color = colors.rose
 $grey-color = colors.grey
-$frontend-color = colors.frontend
-$frontend-bg-color = colors.frontend-bg
-$backend-color = colors.backend
-$backend-bg-color = colors.backend-bg
-$design-color = colors.design
-$design-bg-color = colors.design-bg
-$management-color = colors.management
-$management-bg-color = colors.management-bg
 
-$font-primary = Nunito, Arial, sans-serif
-$font-secondary  = August, Arial, sans-serif
-
+$font-primary  = Indie Flower, Arial, sans-serif
+$font-secondary = Merriweather, Arial, sans-serif
 
 tablet = "only screen and (max-width: 1012px)"
 tablet-up = "only screen and (min-width: 1013px)"
 mobile = "only screen and (max-width: 748px)"
 mobile-up = "only screen and (min-width: 749px)"
 
-.title-component
-  font-size 65px
-  font-family $font-secondary
-  margin 65px 0
-  font-weight 400
-  @media mobile
-    font-size 40px
-    margin 40px 0
+.separator
+  margin 48px 0
+  @media tablet
+    margin: 24px 0
+
+.button
+  color white
+  text-decoration: none
+  font-family $font-primary
+  font-size 24px
+  margin-left 24px
+  background-color: black
+  text-transform: uppercase
+  font-weight 600
+  color: white
+  padding: 12px 16px
+  text-align: center
+  display: inline-block
+  border-radius 4px
+  @media tablet
+      font-size 16px
+      margin-left 12px
+      padding 8px 4px 4px 4px
+
+.blue-content
+    background: #C9ECFF
+    padding 8px 12px
   
 .mobile-only
 	display none

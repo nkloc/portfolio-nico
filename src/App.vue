@@ -7,14 +7,12 @@
         color="#FF96AD"
       />
     </div>
-    <Header/>
-    <Nav/>
+    <Content/>
   </div>
 </template>
 
 <script>
-import Header from './components/Header.vue'
-import Nav from './components/Nav.vue'
+import Content from './components/Content.vue'
 import { FingerprintSpinner } from 'epic-spinners'
 
 
@@ -34,8 +32,7 @@ export default {
    
   },
   components: {
-    Header,
-    Nav,
+    Content,
     FingerprintSpinner
   }
 }
@@ -63,6 +60,10 @@ export default {
   min-height 100vh
   display flex
   overflow-x hidden
+  background-color: #ffffff;
+  opacity: 0.8;
+  background-image: radial-gradient(#212121 0.7000000000000001px, #ffffff 0.7000000000000001px);
+  background-size: 14px 14px;
   @media tablet
     flex-direction column-reverse
     justify-content flex-end
