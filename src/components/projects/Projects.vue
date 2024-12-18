@@ -9,7 +9,6 @@
         :title="project.title"
         :description="project.description"
         :path="project.path"
-        :link="project.link"
         :imageAlt="project.alt"
         :ref="projects"
       />

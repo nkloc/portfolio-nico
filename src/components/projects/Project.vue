@@ -1,18 +1,16 @@
 <template>
-  <a :href="link" target="_blank">
-    <article :style="{ backgroundColor: backgroundColor }">
-      <div class="article-left-content">
-        <h3 class="article-title">{{ title }}</h3>
-        <p class="article-description">{{ description }}</p>
-        <div v-if="tags.length" class="tags">
-          <span v-for="tag in tags" :key="tag" :style="{ color: backgroundColor}" class="tag">
-            {{ tag }}
-          </span>
-        </div>
+  <article :style="{ backgroundColor: backgroundColor }">
+    <div class="article-left-content">
+      <h3 class="article-title">{{ title }}</h3>
+      <p class="article-description">{{ description }}</p>
+      <div v-if="tags.length" class="tags">
+        <span v-for="tag in tags" :key="tag" :style="{ color: backgroundColor}" class="tag">
+          {{ tag }}
+        </span>
       </div>
-      <img :src="require(`@/assets/projects/${path}.png`)" :alt="imageAlt" />
-    </article>
-  </a>
+    </div>
+    <img :src="require(`@/assets/projects/${path}.png`)" :alt="imageAlt" />
+  </article>
 </template>
 
 <script>
