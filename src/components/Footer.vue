@@ -5,13 +5,25 @@
             <ul>
                 <li class="copyright ul-left">Made with <> by Me</li>
                 <div class="ul-right">
-                    <a class="button" href="https://fr.linkedin.com/in/n-kloc" target="_blank"><li>Linkedin</li></a>
-                    <a class="button" href="https://www.malt.fr/profile/nicolaskloc" target="_blank"><li>Malt</li></a>
+                    <a class="button" :href="cvUrl" download="Nicolas_CV.pdf"><li>Mon CV</li></a>
+                    <a class="button" :href="portfolioUrl" download="Nicolas_Portfolio.pdf"><li>Mon Portfolio</li></a>
                 </div>
             </ul>
         </nav>
     </footer>
 </template>
+
+<script>
+
+export default {
+  data() {
+    return {
+      cvUrl: '/cv.pdf',
+      portfolioUrl: '/portfolio.pdf' 
+    };
+  }
+}
+</script>
 
 <style lang="stylus" scoped>
 @import '../css/variables'
@@ -41,7 +53,7 @@ nav
             font-size 24px
             font-weight bold
             @media tablet
-                font-size 20px
+                font-size 16px
         .ul-left
             display flex
             justify-content: center

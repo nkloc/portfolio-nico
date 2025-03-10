@@ -4,8 +4,8 @@
             <ul>
                 <li class="ul-left"><img src="@/assets/logo.svg" alt="Logo KLOC Nicolas"></li>
                 <div class="ul-right">
-                    <a class="button" href="https://fr.linkedin.com/in/n-kloc" target="_blank"><li>Linkedin</li></a>
-                    <a class="button" href="https://www.malt.fr/profile/nicolaskloc" target="_blank"><li>Malt</li></a>
+                    <a class="button" href="https://fr.linkedin.com/in/n-kloc" target="_blank"><li>Mon Linkedin</li></a>
+                    <a class="button" href="https://www.malt.fr/profile/nicolaskloc" target="_blank"><li>Mon Malt</li></a>
                 </div>
             </ul>
         </nav>

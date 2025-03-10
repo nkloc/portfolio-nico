@@ -1,19 +1,17 @@
 <template>
-  <div class="projets">
-    <section>
-      <Project
-        v-for="project in projects"
-        :key="project.id"
-        :tags="project.tags"
-        :backgroundColor="project.backgroundColor"
-        :title="project.title"
-        :description="project.description"
-        :path="project.path"
-        :imageAlt="project.alt"
-        :ref="projects"
-      />
-    </section>
-  </div>
+  <section class="projets">
+    <Project
+      v-for="project in projects"
+      :key="project.id"
+      :tags="project.tags"
+      :backgroundColor="project.backgroundColor"
+      :title="project.title"
+      :description="project.description"
+      :path="project.path"
+      :imageAlt="project.alt"
+      :ref="projects"
+    />
+  </section>
 </template>
 
 <style lang="stylus" scoped>
@@ -21,8 +19,9 @@
 
 section
   display flex
-  flex-direction: column
   width 100%
+  flex-wrap: wrap
+  gap 24px
 </style>
 
 

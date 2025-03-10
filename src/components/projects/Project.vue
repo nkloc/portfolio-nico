@@ -61,16 +61,15 @@ article
     justify-content space-between
     border-radius 16px
     color: white
-    margin-bottom 24px
     overflow: clip
+    width: 100%
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     img
       width: 703px;
       height: 291px;
     @media tablet
-      width 100%
+      border-radius 16px
       max-width 100%
-      border-radius 40px 40px 12px 12px
       height: auto
       margin-bottom 30px
       flex-direction column-reverse
@@ -82,13 +81,14 @@ article
         width 100%
         max-width 500px
         height: auto
-        border-radius 24px
         margin-bottom 30px
         flex-direction column-reverse
         padding 0
         img
-          width: auto
-          height: 100%
+          width: 100%
+          height: auto
+          object-fit: contain
+          max-height: 200px
 
 .article-left-content
   display: flex
@@ -121,8 +121,11 @@ article
     display flex
     gap 8px
     @media tablet
-      flex-wrap: wrap
       gap 4px
+      display flex
+      flex-direction column
+      align-items flex-start
+      width max-content
 
 .tag
     padding 4px 8px

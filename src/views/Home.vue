@@ -9,21 +9,36 @@
         <img src="@/assets/profile-nicolas.png" alt="Avatar Nicolas KLOC">
       </div>
     </div>
-    <div class="transition separator">
-      <h2>Mes réalisations</h2>
-      <p>001</p>
-    </div>
-    <Projects/>
-    <div class="transition separator">
-      <h2>Me contacter</h2>
-      <p>002</p>
-    </div>
-    <Contact/>
+    <section>
+      <div class="transition separator">
+        <h2>Mes expériences pros</h2>
+        <p>001</p>
+      </div>
+      <Experiences/>
+    </section>
+    <section>
+      <div class="transition separator">
+        <h2>Mes projets</h2>
+        <p>002</p>
+      </div>
+      <Projects/>
+    </section>
+    <section>
+      <div class="transition separator">
+        <h2>Me contacter</h2>
+        <p>003</p>
+      </div>
+      <Contact/>
+    </section>
   </div>
 </template>
 
 <style lang="stylus" scoped>
 @import '../css/variables'
+
+section 
+  margin-bottom 40px
+
 .home
   display flex
   flex-direction column
@@ -37,14 +52,16 @@
 .transition
   display flex
   justify-content: space-between
-  font-size 24px
-  border-bottom #212121 2px solid
-  padding-bottom 8px
+  font-size 32px
+  border-bottom #212121 1px solid
+  padding-bottom 16px
   max-width 100%
   h2, p
-    font-weight 700
+    font-weight 500
     color $black-color
   @media mobile
+      font-size 24px
+      padding-bottom: 8px
       width 100%
       max-width 500px
 
@@ -89,13 +106,15 @@ h1
 <script>
 import Projects from '../components/projects/Projects.vue';
 import Contact from '../components/Contact.vue';
+import Experiences from '../components/experiences/Experiences.vue';
 
 
 export default {
   name: 'Home',
   components: {
     Projects,
-    Contact
+    Contact,
+    Experiences
   }
 }
 </script>
